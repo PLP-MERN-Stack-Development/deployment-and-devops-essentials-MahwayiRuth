@@ -2,7 +2,7 @@
 
 import { io } from 'socket.io-client';
 
-const SOCKET_URL = process.env.REACT_APP_SOCKET_URL || 'http://localhost:5000';
+const SOCKET_URL = process.env.REACT_APP_SOCKET_URL || 'https://my-chat-app-mahwayiruth.onrender.com';
 
 class SocketService {
   constructor() {
