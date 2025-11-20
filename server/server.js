@@ -1,5 +1,3 @@
-// server.js - Main server file for Socket.io chat application
-
 const express = require('express');
 const http = require('http');
 const socketIo = require('socket.io');
